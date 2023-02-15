@@ -1,0 +1,10 @@
+.sliderWithAdvertisement {
+  justify-content: space-between;
+
+  .leftpart {
+    width: calc(84% - 10px);
+  }
+  .rightside {
+    width: 16%;
+  }
+}

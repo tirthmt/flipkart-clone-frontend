@@ -1,0 +1,59 @@
+// ----------------------- Posititon ---------------------------
+
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.c-pointer {
+  cursor: pointer;
+}
+.space-between {
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+
+// ----------------------- Margin ---------------------------
+
+.m0 {
+  margin: 0;
+}
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.m-auto {
+  margin: auto;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+// ----------------------- Font ---------------------------
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+
+// ----------------------- Width ---------------------------
+
+.w-100 {
+  width: 100%;
+}

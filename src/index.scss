@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/******** Importing Scss *********/
+@import "../src/assets/Scss/customClass.scss";
+
+/******** Custom Scrollbar *********/
+@media (min-width: 576px) {
+  body {
+    overflow: overlay !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    cursor: pointer !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(200, 200, 200, 0.4);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(200, 200, 200, 0.4);
+    cursor: pointer;
+  }
+}

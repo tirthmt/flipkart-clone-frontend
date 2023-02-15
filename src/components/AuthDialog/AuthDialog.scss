@@ -1,0 +1,45 @@
+@import "../../assets/Scss/variable.scss";
+
+.AuthPopup {
+  min-height: 55vh;
+  min-width: 600px;
+  overflow: hidden !important;
+
+  .leftSide {
+    width: 45%;
+    background: #2874f0;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: 30px;
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+
+  .rightSide {
+    width: 55%;
+    padding: 35px 20px 40px;
+    overflow: auto;
+
+    .orangeButton {
+      color: #fff;
+      background: $secondaryColor;
+      margin-top: 10px;
+      padding: 7px 10px;
+    }
+    .createAccount {
+      color: #70a3f5;
+    }
+  }
+}
+
+.AuthInputField {
+  margin-bottom: 25px !important;
+}
+.error {
+  color: $secondaryColor;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}

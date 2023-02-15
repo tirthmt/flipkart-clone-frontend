@@ -1,0 +1,20 @@
+.navbarWrapper {
+  padding: 20px 130px;
+  max-width: 100%;
+
+  .subHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+  }
+  .productsMenu {
+    padding: 0 10px;
+  }
+  .productsMenu img {
+    width: 60%;
+  }
+  .productsMenu p {
+    font-size: 14px;
+  }
+}

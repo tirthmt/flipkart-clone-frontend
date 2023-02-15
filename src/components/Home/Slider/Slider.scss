@@ -1,0 +1,45 @@
+@import "../../../assets//Scss/variable.scss";
+
+.carouselParent {
+  margin-top: 10px;
+  background: #fff;
+  font-size: 22px;
+
+  .TopMenu {
+    padding: 15px;
+
+    div img {
+      width: 27px;
+      margin: 2px 5px 0px 10px !important;
+    }
+    .dealHeading {
+      font-size: 22px;
+    }
+    .viewAllButton {
+      background-color: $secondaryColor;
+      color: #fff;
+      margin-left: auto;
+    }
+  }
+
+  .singleProduct {
+    text-align: center;
+    margin-top: 20px;
+    padding: 25px 15px;
+
+    img {
+      width: auto;
+      height: 150px;
+      margin-bottom: 10px;
+    }
+    .title {
+      color: #000;
+    }
+    .discount {
+      color: green;
+    }
+    .tagline {
+      color: lightgrey;
+    }
+  }
+}

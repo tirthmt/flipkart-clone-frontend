@@ -1,0 +1,22 @@
+@import "../../assets/Scss/variable.scss";
+
+.appbar {
+  background-color: $headerColor !important;
+}
+.appbarBoxParent {
+  margin-left: 12%;
+  line-height: 0;
+
+  .flipkartLogo {
+    width: 75px;
+  }
+  .subHeading {
+    font-size: 10px;
+    font-style: italic;
+    margin: 0;
+  }
+  .flipkartIcon {
+    width: 11px;
+    margin-left: 5px;
+  }
+}

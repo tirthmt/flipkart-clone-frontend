@@ -1,0 +1,18 @@
+@import "../../../assets/Scss/variable.scss";
+
+.productDetailContent {
+  width: 65%;
+
+  .content {
+    width: 80%;
+    padding-left: 50px;
+
+    .originalPrice {
+      margin-left: 5px;
+      color: gray;
+    }
+    .tcLink {
+      color: $headerColor;
+    }
+  }
+}
